@@ -1,0 +1,9 @@
+<div class="background">
+    <div class="bghead">
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div id="sidebarAndMap">
+        <app-nav-list></app-nav-list>
+        <agm-map [latitude]="getCoordinates()[0]" [longitude]="getCoordinates()[1]" [zoom]="zoom"></agm-map>
+    </div>
+</div>

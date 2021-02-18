@@ -1,0 +1,16 @@
+.overall {
+    align-content: center;
+}
+
+.message {
+    width: auto;
+    max-width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}

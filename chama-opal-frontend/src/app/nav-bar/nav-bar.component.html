@@ -1,0 +1,17 @@
+<nav class="navbar" style="background-color: inherit;">
+    <div class="content">
+        <div class="row">
+            <div class="col-2"><h1 class="navbar-brand" href="#">Rivers</h1></div>
+            <div class="col-10 info"
+            [ngClass]="{'color-red': getSection().runnable === false,
+            'color-green': getSection().runnable === true}">
+                <div class="col-3">{{getSection().name}}</div>
+                <div class="col-3">{{getSection().waterLevel}}
+                    <p class="cm" *ngIf="getSection().waterLevel !== undefined">cm</p>
+                </div>
+                <div class="col-3"><img *ngIf='imageUrl !== undefined'  [src]='imageUrl'/></div>
+                <div class="col-3"><button (click)="logout()" class="logout">logout</button></div>
+            </div>
+        </div>
+    </div>
+</nav>

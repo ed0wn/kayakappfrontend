@@ -1,0 +1,35 @@
+html, body {
+    background-color: black;
+    height: 100vh;
+}
+
+.overall {
+    margin: 0 auto;
+    width: 35%;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.error {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+.message {
+    margin-bottom: 10px;
+    min-height: 10vh;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}

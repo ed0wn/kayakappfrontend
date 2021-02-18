@@ -1,0 +1,49 @@
+#sidebar-wrapper {
+    width: 250px;
+    margin-left: 0rem;
+    height: 100%;
+}
+
+.textColor{
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.card-body {
+    padding: 0 0 0 0;
+    height: 85vh;
+    overflow-y: auto;
+}
+
+.card-body::-webkit-scrollbar {
+    width: 0px;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.btn{
+    background-color:rgb(77, 81, 84);
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border-bottom: beige solid 1px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: none;
+}
+
+.button {
+    height: auto;
+}
+
+.list-group-item {
+    background-color: beige;
+    color: rgb(77, 81, 84);
+}
+
+.section {
+    cursor: pointer;
+}

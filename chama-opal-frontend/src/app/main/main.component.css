@@ -1,0 +1,21 @@
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+.background {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    background-color: rgb(77, 81, 84);
+}
+
+agm-map {
+    height: 85vh;
+    width: 100%;
+}
+
+#sidebarAndMap {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+}

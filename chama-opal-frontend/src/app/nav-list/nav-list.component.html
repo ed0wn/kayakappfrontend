@@ -1,0 +1,21 @@
+<div id="sidebar-wrapper">
+    <div id="navAccordion" class="card-body">
+        <div class="button" *ngFor="let river of rivers">
+            <h4 class="card-title">
+                <a data-toggle="collapse" [href]="'#'+river.riverName" (click)="onRiverClick(river.riverName)"
+                    class="textColor btn">
+                    {{river.riverName}}
+                </a>
+            </h4>
+            <div class="collapse" [id]="river.riverName" data-parent="#navAccordion">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item textColor" *ngFor="let section of sections">
+                        <a data-toggle="collapse" (click)="onSectionClick(section)" class="section">
+                            {{section.name}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

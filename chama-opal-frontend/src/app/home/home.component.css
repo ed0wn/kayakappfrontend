@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+}
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/assets/img/kayak.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    width: 100%;
+    padding: 1%;
+    position: top fixed;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+    background: rgba(25, 25, 25, .8);
+}
+
+.card-body {
+    padding-bottom: 0%;
+}
